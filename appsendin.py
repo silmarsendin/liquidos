@@ -14,7 +14,7 @@ if paginaselecionada == 'Defina o cenário':
     st.write('Escolha na caixa de seleção a esquerda qual cenário se aplica ao seu caso concreto.')
     definircenario = st.checkbox('Quero saber como definir o cenário com líquidos igníferos.')
     if definircenario:
-        video_file = open('cenarios.mp4', 'rb')
+        video_file = open('https://youtu.be/e3a02Hl0ddM', 'rb')
         video_bytes = video_file.read()
         st.video(video_bytes)
 
