@@ -117,7 +117,7 @@ elif paginaselecionada == 'Fracionados':
             if mostrar49:
                 from PIL import Image
                 image2 = Image.open('tabela49.png')
-                st.image(image2, caption='Tabela 4.9: Quantidades máximas para armazéns de líquidos (M-2) sem sistema de chuveiros automáticos')
+                st.image(image2, caption='Tabela 4.9: Quantidades máximas para armazéns de líquidos M-2 sem sistema de chuveiros automáticos')
                 
 
         mostrarcurso = st.checkbox('Quero saber mais sobre proteção contra incêndio para líquidos igníferos.')
