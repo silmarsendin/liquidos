@@ -1,6 +1,9 @@
 import streamlit as st
-st.title('Aplicativo para Seleção das Proteções Contra Incêndio para Líquidos Igníferos')
-st.write('De acordo com a Instrução Técnica 25/19 do Corpo de Bombeiros do Estado de São Paulo e NBR 17.505.')
+#st.title('Aplicativo para Seleção das Proteções Contra Incêndio para Líquidos Igníferos')
+#st.write('De acordo com a Instrução Técnica 25/19 do Corpo de Bombeiros do Estado de São Paulo e NBR 17.505.')
+from PIL import Image
+image1 = Image.open('liq.png')
+st.image(image1, caption='')
 
 
 # Menu lateral
